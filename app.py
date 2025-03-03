@@ -21,7 +21,7 @@ import os
 
 # Read the data
 script_dir = os.path.dirname(os.path.realpath(__file__))
-csv_path = os.path.join(script_dir, "../data/realestate_clean.csv")
+csv_path = os.path.join(script_dir, "data", "realestate_clean.csv")
 df = pd.read_csv(csv_path)
 
 # create a DB with sqlalchemy
